@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif, serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+h1 {
+  border: 20px solid skyblue;
+  border-radius: 30px;
+  margin-bottom: -5px;
+  background-color: skyblue;
+}
+
+.todo-list {
+  margin: 10px auto;
+  padding: 10px;
+
+}
+
+.todo-list > li {
+  background-color: skyblue;
+  margin: 10px auto;
+  width: 75%;
+  height: 80px;
+  border-radius: 15px;
+  padding-top: 10%;
+  
+}
+
+li {
+  list-style-type: none;
+
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:focus {
+  outline: 1px solid white;
+}
+
+a:hover {
+  color: gray;
+}
